@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ancient Nature</title>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body style= "background-color:black;">
+
+
+<h4 style="color:white; text-align:center;">The celestial energies grew tired of their form-less bodies <br>
+Restlessly floating in a dream-like state <br>
+Sensing a stir in her 
+<a href="Net-Art-Page-7.html">insides<a/>, the earth crafted them a 
+<a href="Net-Art-Page-4.html">portal</a></h4>
+<img src="Net-Art-Image-3.jpg" alt="portal" width="50%"
+
+</body>
+</html>

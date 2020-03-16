@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ancient Nature</title>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body style= "background-color:black;">
+
+
+<h4 style="color:white; text-align:center;">And synthesized</h4>
+<img src="Net-Art-Image-10.jpg" alt="harmony" width="50%"
+<br>
+<h4 style="color:white; text-align:center;">Into Miraculous Harmony</h4>
+<br>
+<br>
+<br>
+<br>
+<p style="color:white;">By Kalil Mitchell</p>
+<p><a href="index.html">Ancient Nature</a></p>
+
+</body>
+</html>

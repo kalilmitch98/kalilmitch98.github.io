@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ancient Nature</title>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body style= "background-color:black;">
+
+
+<h4 style="color:white; text-align:center;">Their celestial bodies melted away upon impact <br>
+Leaving only their energy to seep into the earth's core <br>
+There they slept, for millions of years beneath the <a href="Net-Art-Page-3.html">sea</a></h4>
+<img src="Net-Art-Image-2.jpg" alt="falling" width="50%"
+
+</body>
+</html>

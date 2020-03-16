@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ancient Nature</title>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body style= "background-color:black;">
+
+
+<h4 style="color:white; text-align:center;">They swam in her watery nest for centuries <br> Back then, slow moved fast <br> 
+The sky and water cradled a great spirit <br>
+Soon to be 
+<a href="Net-Art-Page-6.html">born</a> into many</h4>
+<img src="Net-Art-Image-5.jpg" alt="great spirit" width="50%"
+
+</body>
+</html>

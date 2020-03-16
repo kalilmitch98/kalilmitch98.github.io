@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ancient Nature</title>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body style= "background-color:black;">
+
+
+<h4 style="color:white; text-align:center;">As soon as life began, <br>
+it 
+<a href="Net-Art-Page-9.html">multiplied</a>.</h4>
+<img src="Net-Art-Image-8.jpg" alt="myriad" width="50%"
+
+</body>
+</html>
