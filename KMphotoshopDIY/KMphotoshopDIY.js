@@ -6,11 +6,11 @@ var lastscreenshot=61; // last screenshot never taken
 
 function preload() {
 // preload() runs once, it may make you wait
-img = loadImage('NewTool2.png');  // cat.jpg needs to be next to this .js file
+img = loadImage('https://kalilmitch98.github.io/CodeImages/NewTool2.png');
 // you can link to an image on your github account
 //img = loadImage('https://dma-git.github.io/images/74.png');
-img2 = loadImage('StarTool2.png');
-img3 = loadImage('RiverTool.png');
+img2 = loadImage('https://kalilmitch98.github.io/CodeImages/StarTool2.png');
+img3 = loadImage('https://kalilmitch98.github.io/CodeImages/RiverTool.png');
 
 }
 
