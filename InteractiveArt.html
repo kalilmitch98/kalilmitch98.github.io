@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mitchell.CodeArt</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+ <ul class="navbar-nav">
+ 	<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+	<li class="nav-item"><a class="nav-link" href="GlitchArt.html">Glitch Art</a></li>
+	<li class="nav-item"><a class="nav-link" href="MemeMashup.html">Meme Mashup</a></li>
+    <li class="nav-item"><a class="nav-link" href="GameArt.html">Game Art</a>      </li/Users/kalilmitchell/Documents/GitHub/kalilmitch98.github.io/CodeAsArt.html>
+	 <li class="nav-item"><a class="nav-link" href="3Dprints.html">3d-Prints</a></li>
+    <li class="nav-item"><a class="nav-link" href="NetArt.html">Net Art</a></li>
+    <li class="nav-item"><a class="nav-link" href="CodeAsArt.html">Code Art</a></li>
+</ul> 
+</nav>
+
+<h1>Code As Art</h1>
+<h4 style="color:grey;">Spring 2020</h4>
+<hr>
+<h4>Interactive Art</h4>
+
+<div class="container-fluid">
+
+<iframe src="GameArtExperiment/index.html" height="703" width="903"></iframe>
+
+</div>
+
+<pre>
+This is an interactive art piece where the user follows a star around the 
+canvas in order to reveal pieces of a poem while witnessing the phases of 
+the moon. The evolution of the moon's shape is in dialogue with the poem 
+about our own internal shifts in alignment with lunar energy. The written 
+portion could also be interpreted as a guided meditation or directed 
+visualization. 
+
+Code:
+</pre>
+
+<pre>
+var ballx = 300;
+var bally = 300;
+var ballSize = 40;
+var score =0;
+
+function preload() {
+  img = loadImage('https://kalilmitch98.github.io/CodeImages/StarChaseTool.png');
+  img2 = loadImage('https://kalilmitch98.github.io/CodeImages/MoonPhase1.jpg');
+  img3 = loadImage('https://kalilmitch98.github.io/CodeImages/MoonPhase2.jpg');
+  img4 = loadImage('https://kalilmitch98.github.io/CodeImages/MoonPhase3.jpg');
+  img5 = loadImage('https://kalilmitch98.github.io/CodeImages/MoonPhase4.jpg');
+  img6 = loadImage('https://kalilmitch98.github.io/CodeImages/MoonPhase5.jpg');
+  img7 = loadImage('https://kalilmitch98.github.io/CodeImages/MoonPhase6.jpg');
+  img8 = loadImage('https://kalilmitch98.github.io/CodeImages/MoonPhase7.jpg');
+  img9 = loadImage('https://kalilmitch98.github.io/CodeImages/MoonPhase8.jpg');
+  img10 = loadImage('https://kalilmitch98.github.io/CodeImages/NASAstars.jpg');
+} // end preload
+
+function setup() {
+  createCanvas(900, 700);
+  textAlign(CENTER);
+  textSize(20);
+} // end setup
+
+
+function draw() {
+  background(0);
+  
+  levelOne();
+  
+  text(("Phasing: " + score), width/2, 40);
+  fill(255);
+  
+
+} // end draw
+
+
+function levelOne(){
+  var distToBall= dist(ballx, bally, mouseX, mouseY);
+  if (distToBall <ballSize/2){
+    ballx = random(width);
+    bally= random(height);
+    score= score +1;
+  }
+  if(score>2){
+// level 2
+  image(img2, 5, 300);
+ text("Shadow Time", width/2, 350);
+ fill(255);
+  }
+  if(score>5){
+    image(img3, 80, 220);
+    text("Waking out of Hibernation", width/2, 380);
+    fill(255);
+  }
+  if(score>8){
+    image(img4, 170, 160);
+    text("In Balance", width/2, 410);
+    fill(255);
+  }
+  if(score>11){
+   image(img5, 270, 130);
+   text("Receiving", width/2, 440);
+   fill(255);
+  }
+  if(score>14){
+    image(img6, 370, 115);
+    text("Radiating Wholeness", width/2, 470);
+    fill(255);
+  }
+  if(score>17){
+    image(img7, 470, 130);
+    text("I am full", width/2, 500);
+    fill(255);
+  }
+  if(score>20){
+    image(img8, 570, 160);
+    text("I say goodbye", width/2, 530);
+    fill(255);
+  }
+  if(score>23){
+    image(img9, 670, 220);
+    text("Storing the Light", width/2, 560);
+    fill(255);
+  }
+  if(score>26){
+    image(img2, 770, 300);
+    text("For Another Time", width/2, 590);
+    fill(255);
+  }
+  if(score>28){
+    image(img10, 0, 0);
+  }
+  //line(ballx, bally, mouseX, mouseY);
+  image(img, ballx-ballSize/2, bally-ballSize/2);
+} // end level one
+</pre>
+
+
+</div>
+</body>
+</html>
